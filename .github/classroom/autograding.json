@@ -3,12 +3,12 @@
     {
       "name": "Test",
       "setup": "",
-      "run": "dotnet test",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 30,
-      "points": null
+      "timeout": 2,
+      "points": 1
     }
   ]
 }
