@@ -21,7 +21,7 @@ Cela sera indispensable pour commencer à travailler et garder trace de vos réa
 
 La première chose à faire est de créer un fork de ce dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
-[https://classroom.github.com/a/-E2YywoT](https://classroom.github.com/a/-E2YywoT)
+<https://classroom.github.com/a/Om-ffV9J>
 
 GitHub va vous créer un dépôt contenant un fork de ce dépôt. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
 
