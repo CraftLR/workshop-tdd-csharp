@@ -76,7 +76,8 @@
 				"dotjoshjohnson.xml",
 				"editorconfig.editorconfig",
 				"leo-labs.dotnet",
-				"fernandoescolar.vscode-solution-explorer"
+				"fernandoescolar.vscode-solution-explorer",
+				"cschleiden.vscode-github-actions"
 			]
         }
     },
