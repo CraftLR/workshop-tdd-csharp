@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Authors>Sébastien Nedjar</Authors>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,84 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
+{
+    "name": "C# (.NET)",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "VARIANT": "6.0-bullseye",
+            "NODE_VERSION": "none"
+        }
+    },
+    // Set *default* container specific settings.json values on container create.
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "zsh": {
+                "path": "zsh"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "files.associations": {
+            "*.csproj": "msbuild",
+            "*.fsproj": "msbuild",
+            "*.globalconfig": "ini",
+            "*.manifest": "xml",
+            "*.nuspec": "xml",
+            "*.pkgdef": "ini",
+            "*.projitems": "msbuild",
+            "*.props": "msbuild",
+            "*.resx": "xml",
+            "*.rsp": "Powershell",
+            "*.ruleset": "xml",
+            "*.settings": "xml",
+            "*.shproj": "msbuild",
+            "*.slnf": "json",
+            "*.targets": "msbuild",
+            "*.vbproj": "msbuild",
+            "*.vsixmanifest": "xml",
+            "*.vstemplate": "xml",
+            "*.xlf": "xml"
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "omnisharp.path": "latest",
+        "omnisharp.defaultLaunchSolution": "CraftLR.sln",
+        "omnisharp.disableMSBuildDiagnosticWarning": true,
+        "omnisharp.useModernNet": true,
+        "omnisharp.enableAsyncCompletion": true,
+        "omnisharp.enableEditorConfigSupport": true,
+        "omnisharp.enableImportCompletion": true,
+        "omnisharp.enableRoslynAnalyzers": true,
+        "omnisharp.organizeImportsOnFormat": true
+    },
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+      "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+      }
+    },
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [5000, 5001],
+    // Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": "dotnet restore",
+    // Configure tool-specific properties.
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+				"ms-dotnettools.csharp",
+				"tintoy.msbuild-project-tools",
+				"formulahendry.dotnet-test-explorer",
+				"nikiforovall.surround-with-csharp",
+				"mhutchie.git-graph",
+				"codezombiech.gitignore",
+				"yzhang.markdown-all-in-one",
+				"dotjoshjohnson.xml",
+				"editorconfig.editorconfig",
+				"leo-labs.dotnet",
+				"fernandoescolar.vscode-solution-explorer"
+			]
+        }
+    },
+    "remoteUser": "vscode"
+}
