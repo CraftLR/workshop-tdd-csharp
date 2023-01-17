@@ -11,7 +11,7 @@
 
 L'objectif premier de cet atelier est de vous familiariser avec tous les nouveaux outils qui sont nécessaires pour produire du beau code. Cet atelier est à la fois une découverte des tests unitaires et de leur mise en pratique. Chacun des exercices proposés ci-après peut donner lieu à un kata que serait pratiqué lors d'un coding dojo en mob-programming pour questionner ses pratiques et les differents choix que l'on pourrait faire. 
 
-## Découverte de l'environnement de travail, des outils et premiers tests en C#
+## Découverte de l'environnement de travail, des outils et premiers tests en C# [![C# CI with dotnet](https://github.com/CraftLR/workshop-tdd-csharp/actions/workflows/dotnet.yml/badge.svg)](https://github.com/CraftLR/workshop-tdd-csharp/actions/workflows/dotnet.yml)
 
 ### Création de votre fork
 
