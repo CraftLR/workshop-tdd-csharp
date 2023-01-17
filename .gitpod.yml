@@ -7,18 +7,18 @@ tasks:
 
 vscode:
   extensions:
-				- ms-dotnettools.csharp
-				- tintoy.msbuild-project-tools
-				- formulahendry.dotnet-test-explorer
-				- nikiforovall.surround-with-csharp
-				- mhutchie.git-graph
-				- codezombiech.gitignore
-				- yzhang.markdown-all-in-one
-				- dotjoshjohnson.xml
-				- editorconfig.editorconfig
-				- leo-labs.dotnet
-				- fernandoescolar.vscode-solution-explorer
-				- cschleiden.vscode-github-action
+    - ms-dotnettools.csharp
+    - tintoy.msbuild-project-tools
+    - formulahendry.dotnet-test-explorer
+    - nikiforovall.surround-with-csharp
+    - mhutchie.git-graph
+    - codezombiech.gitignore
+    - yzhang.markdown-all-in-one
+    - dotjoshjohnson.xml
+    - editorconfig.editorconfig
+    - leo-labs.dotnet
+    - fernandoescolar.vscode-solution-explorer
+    - cschleiden.vscode-github-action
 
 github:
   prebuilds:
