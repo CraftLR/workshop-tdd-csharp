@@ -130,7 +130,7 @@ Bien évidemment l'implémentation qui vous est demandée n'est pas canonique ma
 Une fois l'exercice terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante :
 
 ```sh
-~/.../workshop-tdd-VotreUsername (exercice1*)$ mvn test
+~/.../workshop-tdd-VotreUsername (exercice1*)$ dotnet test
 ~/.../workshop-tdd-VotreUsername (exercice1*)$ git add test/CraftLR.Exercice1/HelloWorldTest.cs
 ~/.../workshop-tdd-VotreUsername (exercice1*)$ git add src/CraftLR.Exercice1/HelloWorld.cs
 ~/.../workshop-tdd-VotreUsername (exercice1*)$ git commit -m "Validation du dernier test de l'exercice 1"
