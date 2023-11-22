@@ -5,7 +5,7 @@
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
-            "VARIANT": "6.0-bullseye",
+            "VARIANT": "7.0-bookworm",
             "NODE_VERSION": "none"
         }
     },
@@ -52,9 +52,9 @@
     },
     // Features to add to the dev container. More info: https://containers.dev/features.
     "features": {
-      "ghcr.io/devcontainers/features/sshd:1": {
-        "version": "latest"
-      }
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        }
     },
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [5000, 5001],
@@ -66,19 +66,19 @@
         "vscode": {
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-				"ms-dotnettools.csharp",
-				"tintoy.msbuild-project-tools",
-				"formulahendry.dotnet-test-explorer",
-				"nikiforovall.surround-with-csharp",
-				"mhutchie.git-graph",
-				"codezombiech.gitignore",
-				"yzhang.markdown-all-in-one",
-				"dotjoshjohnson.xml",
-				"editorconfig.editorconfig",
-				"leo-labs.dotnet",
-				"fernandoescolar.vscode-solution-explorer",
-				"cschleiden.vscode-github-actions"
-			]
+                "ms-dotnettools.csdevkit",
+                "tintoy.msbuild-project-tools",
+                "formulahendry.dotnet-test-explorer",
+                "nikiforovall.surround-with-csharp",
+                "mhutchie.git-graph",
+                "codezombiech.gitignore",
+                "yzhang.markdown-all-in-one",
+                "dotjoshjohnson.xml",
+                "editorconfig.editorconfig",
+                "leo-labs.dotnet",
+                "fernandoescolar.vscode-solution-explorer",
+                "cschleiden.vscode-github-actions"
+            ]
         }
     },
     "remoteUser": "vscode"
