@@ -3,6 +3,10 @@
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
+  </PropertyGroup>
   
   <PropertyGroup>
     <Authors>Sébastien Nedjar</Authors>
